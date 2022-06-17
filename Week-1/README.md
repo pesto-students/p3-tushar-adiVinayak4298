@@ -82,9 +82,10 @@ g.  Server sends out an HTTP response along with the status of response.
 
 h.  Browser displays HTML content Finally, Done.
 
-**B) High Level Components of a browser**The user interface: this includes the address bar, back/forward button, bookmarking menu, etc. Every part of the browser display except the window where you see the requested page.
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+**B) High Level Components of a browser**
 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The user interface: this includes the address bar, back/forward button, bookmarking menu, etc. Every part of the browser display except the window where you see the requested page.
 1.  The browser engine: marshals actions between the UI and the
     rendering engine.
 
