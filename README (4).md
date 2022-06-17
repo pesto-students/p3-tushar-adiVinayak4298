@@ -113,7 +113,7 @@ h.  Browser displays HTML content Finally, Done.
 **Refer The Image for
 Explanation:-Assignment-1/images/Browser\_component\_assignment1.jpg**
 
-> ![](media/image1.jpeg){width="5.0in" height="3.75in"}
+![Browser_component_assignment1](https://user-images.githubusercontent.com/107396091/174398056-4e7e95f0-f12d-43df-a683-04eaf32d4396.jpg)
 
 **C) Rendering engine and its use**
 -----------------------------------
@@ -136,7 +136,10 @@ After that, this is the basic flow of the rendering engine:
 **Refer The Image for Explanation :: Assignment-1/images /Rendering**
 **engine basic flow.jpg**
 
-![](media/image2.jpeg){width="5.0in" height="2.0625in"}
+
+![Rendering engine basic flow](https://user-images.githubusercontent.com/107396091/174398171-b90aefdd-5647-47dd-a469-583cbd93d1a1.jpg)
+
+
 
 **D) Parsers (HTML, CSS, etc):**
 --------------------------------
@@ -326,7 +329,8 @@ following:**
 
 -   Paint the individual nodes to the screen.
 
-![](media/image2.png){width="5.0in" height="2.3333333333333335in"}
+![dom](https://user-images.githubusercontent.com/107396091/174398370-255162e7-12e5-4a13-b3bb-4383f8858998.png)
+
 
 **G) Order of script processing:**
 ----------------------------------
