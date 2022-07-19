@@ -1,0 +1,112 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Nunito", sans-serif;
+}
+body {
+	font-size: 62.5%;
+	width: 90%;
+	margin: auto;
+    background-color: coral;
+}
+h3 {
+	color: #3a5699;
+}
+header {
+	display: flex;
+	justify-content: center;
+	font-size: 3rem;
+	font-weight: 500;
+	color: #3a5699;
+}
+
+.heading {
+	text-align: center;
+	margin: 1rem 0;
+}
+main {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 7rem;
+	padding-top: 2.5rem;
+}
+.left-article .article-item p {
+	width: 75%;
+	margin: auto;
+	font-size: 1rem;
+}
+.article-item .image {
+	width: 70%;
+	margin: auto;
+	padding-top: 3rem;
+}
+img {
+	width: 100%;
+}
+.right-article .article-item {
+	margin-top: 1rem;
+	font-size: 1rem;
+}
+.right-article .article-item p {
+	margin-top: 0.5rem;
+}
+a:hover {
+	color: red;
+	text-decoration: none;
+}
+.form-section {
+	display: flex;
+	justify-content: center;
+	padding: 2rem 1rem;
+	margin: 1rem 0;
+	border: 2px solid grey;
+}
+.form-section .input-group {
+	margin-top: 1rem;
+	display: flex;
+	gap: 0.5rem;
+	font-size: 1rem;
+}
+.terms {
+	margin-top: 1rem;
+}
+button {
+	margin-top: 1rem;
+	padding: 1rem;
+	background-color: #3a5699;
+	font-size: 1rem;
+	color: antiquewhite;
+	cursor: pointer;
+}
+button:hover {
+	background-color: grey;
+}
+
+input {
+	border-radius: 0.4rem;
+	padding: 0.1rem;
+}
+input:focus {
+	border: 0.2rem solid #3a5699;
+}
+footer {
+	display: flex;
+	justify-content: center;
+	font-size: 1rem;
+	background-color: #3a5699;
+	color: aqua;
+}
+.footer a {
+	color: whitesmoke;
+	text-decoration: none;
+}
+
+.footer a:hover {
+	color: aqua;
+}
+@media only screen and (max-width: 600px) {
+	main {
+		grid-template-columns: 1fr;
+	}
+}
