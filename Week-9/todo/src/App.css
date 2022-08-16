@@ -10,10 +10,9 @@
 	font-family: "Nunito";
 }
 
-.App > span > span{
-  color: red;
+.App > span > span {
+	color: red;
 }
-
 
 .heading {
 	text-transform: uppercase;
