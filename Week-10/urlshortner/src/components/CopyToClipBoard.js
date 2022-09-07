@@ -18,7 +18,7 @@ const CopyToClipBoard = ({ item }) => {
 					Copy to clipboard
 				</button>
 			</CopyToClipboard>
-            {copied ? <span style={{color: 'red'}}>Copied.</span> : null}
+			{copied ? <span style={{ color: "red" }}>Copied.</span> : null}
 		</>
 	);
 };
